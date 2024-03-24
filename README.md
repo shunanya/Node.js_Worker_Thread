@@ -13,4 +13,4 @@ To be run worker threads pool that encrypting given file(s) the following comman
     $cd <project root>/src/worker_thread/pool
     $node encrypt-main.js tmp.txt tmp1.txt
 
-Text files for encrypt should be exist in __\<project root\>/resources folder__
+Text files for encrypt should be exist in __\<project root\>/resources__ folder

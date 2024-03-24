@@ -8,3 +8,9 @@ thereby improving the overall performance and scalability of Node.js application
 The current repository contains simple JavaScripts that allow to use worker thread and 
 pool of worker threads so that prevents blocking of main event loop.
 
+To be run worker threads pool that encrypting given file(s) the following commands has to be done:
+
+    $cd <project root>/src/worker_thread/pool
+    $node encrypt-main.js tmp.txt tmp1.txt
+
+Text files for encrypt should be exist in __\<project root\>/resources folder__
